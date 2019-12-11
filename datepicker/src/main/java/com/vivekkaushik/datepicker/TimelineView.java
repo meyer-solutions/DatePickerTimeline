@@ -108,6 +108,11 @@ public class TimelineView extends RecyclerView {
         invalidate();
     }
 
+
+    public void selectPosition(Integer pos) {
+        adapter.selectPosition(pos);
+    }
+
     public void deactivateDates(Date[] deactivatedDates) {
         adapter.disableDates(deactivatedDates);
     }
