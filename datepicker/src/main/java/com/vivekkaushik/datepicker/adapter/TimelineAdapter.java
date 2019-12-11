@@ -28,7 +28,7 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
     private OnDateSelectedListener listener;
 
     private View selectedView;
-    private int selectedPosition = -1;
+    private int selectedPosition = 0;
 
     public TimelineAdapter(TimelineView timelineView) {
         this.timelineView = timelineView;
