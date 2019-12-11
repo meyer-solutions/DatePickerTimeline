@@ -107,6 +107,10 @@ public class DatePickerTimeline extends LinearLayout {
         timelineView.setInitialDate(year, month, date);
     }
 
+    public void selectPosition(Integer pos) {
+        timelineView.selectPosition(pos);
+    }
+
     /**
      * Deactivate dates from the calendar. User won't be able to select
      * the deactivated date.
